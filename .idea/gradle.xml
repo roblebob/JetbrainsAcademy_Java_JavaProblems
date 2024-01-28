@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="false" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Array/Basic operations" />
+            <option value="$PROJECT_DIR$/Topics/Array/Declarations" />
+            <option value="$PROJECT_DIR$/Topics/Array/Finding and Printing Unique Integers from an Array" />
+            <option value="$PROJECT_DIR$/Topics/Array/Initializations" />
+            <option value="$PROJECT_DIR$/Topics/Array/Initializing and using first element of array" />
+            <option value="$PROJECT_DIR$/Topics/Array/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Declaring methods/Method signature" />
+            <option value="$PROJECT_DIR$/Topics/Declaring methods/Sum of numbers in the range" />
+            <option value="$PROJECT_DIR$/Topics/Declaring methods/The sign of a number" />
+            <option value="$PROJECT_DIR$/Topics/Declaring methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Integer operations" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Squirrels and nuts" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/Count the number of characters in a given string" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/Creating a 'Hello, World!' program from scrambled code" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/Fixing errors in main" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/Fixing the main method" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/No main args" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/Print  Hello, Java" />
+            <option value="$PROJECT_DIR$/Topics/Method  main/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Overloading/Determine the output" />
+            <option value="$PROJECT_DIR$/Topics/Overloading/Overloading methods" />
+            <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a primitive" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a reference type" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Declaring an integer and a double in a class" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Null syntax" />
+            <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Theory" />
             <option value="$PROJECT_DIR$/Topics/Reading user's input with Scanner/Creating a user name input and greeting message program" />
             <option value="$PROJECT_DIR$/Topics/Reading user's input with Scanner/Direct input" />
             <option value="$PROJECT_DIR$/Topics/Reading user's input with Scanner/Printing each word in a new line" />

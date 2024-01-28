@@ -5,7 +5,6 @@
     <content url="file://$MODULE_DIR$/../../../../../Topics/Reading user's input with Scanner/Creating a user name input and greeting message program">
       <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Reading user's input with Scanner/Creating a user name input and greeting message program/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Reading user's input with Scanner/Creating a user name input and greeting message program/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Reading user's input with Scanner/Creating a user name input and greeting message program/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

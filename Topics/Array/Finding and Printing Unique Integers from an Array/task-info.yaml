@@ -1,0 +1,39 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      import java.util.LinkedHashSet;
+      import java.util.Iterator;
+      
+      public class Main {
+          public static void main(String[] args) {
+              // Create a Scanner object for taking input
+              Scanner in = new Scanner(System.in);
+      
+              // Read the number of integers
+              int n = in.nextInt();
+      
+              // Declare an array of integers
+              int[] arr = new int[n];
+      
+              // Use a for loop to fill array with integers from input
+      
+              // Insert the logic to extract unique elements from the array
+              // Hint: You could use a collection framework like LinkedHashSet which preserves insertion order and does not allow duplicates
+      
+              // Iterate over the unique elements and print them one by one
+      
+              // Close the Scanner object
+              in.close();
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/42021#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 28 Jan 2024 14:28:04 UTC"
+record: -1
+submission_language: java17
