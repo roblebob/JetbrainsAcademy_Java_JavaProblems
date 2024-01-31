@@ -1,1 +1,1 @@
-# Project as part of execises, within Hyperskill's Java Programm 
+# Project as part of exercises, within Hyperskill's Java Programm 
