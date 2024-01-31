@@ -1,0 +1,38 @@
+<h2>Object class</h2>
+<div class="step-text">
+<p>The Java Standard Library has a class named <code class="language-java">Object</code> that is the default parent of all standard classes and your custom classes. Every class extends this one implicitly, therefore it's the root of inheritance in Java programs. The class belongs to the <code class="language-java">java.lang</code> package that is imported by default.</p>
+<h5 id="instantiating-the-object-class">Instantiating the Object class</h5>
+<p>Let's create an instance of the <code class="language-java">Object</code> class.</p>
+<pre><code class="language-java">Object anObject = new Object();</code></pre>
+<p>The <code class="language-java">Object</code> class can refer to an instance of any class because any instance is a kind of <code class="language-java">Object</code>  (<em>upcasting</em>).</p>
+<pre><code class="language-java">Long number = 1_000_000L;
+Object obj1 = number; // an instance of Long can be cast to Object
+
+String str = "str";
+Object obj2 = str; // the same with an instance of String</code></pre>
+<p>When we declare a class, we can explicitly extend the <code class="language-java">Object</code> class. However, there is no point, since the extension is already done implicitly. We advise you to avoid redundancy in your code, but here's an example, just in case:</p>
+<pre><code class="language-java">class A extends Object { }</code></pre>
+<p>In your own solutions, it is enough to write <code class="language-java">class A { }</code>.</p>
+<h5 id="methods-provided-by-the-object-class">Methods provided by the Object class</h5>
+<p>The <code class="language-java">Object</code> class provides some common methods to all subclasses. It has nine instance methods (excluding overloaded methods) which can be divided into four groups:</p>
+<ul>
+<li><strong>thread synchronization:</strong> <code class="language-java">wait</code>, <code class="language-java">notify</code>, <code class="language-java">notifyAll</code>;</li>
+<li><strong>object identity</strong>: <code class="language-java">hashCode</code>, <code class="language-java">equals</code>;</li>
+<li><strong>object management</strong>: <code class="language-java">finalize</code><em>, </em><code class="language-java">clone</code><em>, </em><code class="language-java">getClass</code><em>;</em></li>
+<li><strong>human-readable representation</strong>: <code class="language-java">toString</code>;</li>
+</ul>
+<p>This way of grouping methods isn't perfect, but it can help you remember them. Here's a more detailed explanation of the methods:</p>
+<ul>
+<li>The first group of methods (<code class="language-java">wait</code>, <code class="language-java">notify</code>, <code class="language-java">notifyAll</code><em>)</em> are for working in multithreaded applications.</li>
+<li><code class="language-java">hashCode</code> returns a hash code value for the object.</li>
+<li><code class="language-java">equals</code><em> </em>indicates whether some other object is <strong>"equal to"</strong> this particular one.</li>
+<li><code class="language-java">finalize</code> is called by the garbage collector (GC) on an object when the GC wants to clean it up. (<strong>Note: </strong>this method has been deprecated as of JDK 9).</li>
+<li><code class="language-java">clone</code> creates and returns a copy of the object.</li>
+<li><code class="language-java">getClass</code> returns an instance of <code class="language-java">Class</code>, which has information about the runtime class.</li>
+<li><code class="language-java">toString</code> returns a string representation of the object.</li>
+</ul>
+<p>Some of the methods listed above are native, which means they are implemented using <strong>native</strong> code. It is typically written in C or C++. Native methods are usually used to interface with system calls or libraries written in other programming languages.</p>
+<p>In the following topics, we will consider these class methods in more detail.</p>
+<h5 id="conclusion">Conclusion</h5>
+<p>The <code class="language-java">Object</code> class is a default class in the <code class="language-java">java.lang</code> package and is the root of inheritance in Java programs. Every instance of any class is a kind of <code class="language-java">Object</code> so there is no need to explicitly extend it when declaring a class. It provides some common methods to all subclasses, including nine instance methods that are divided into four groups in the present topic for your convenience. Some of these methods are native so you can use them to interface with system calls or other programming language libraries. You will learn about the methods in the next topics.</p>
+</div>

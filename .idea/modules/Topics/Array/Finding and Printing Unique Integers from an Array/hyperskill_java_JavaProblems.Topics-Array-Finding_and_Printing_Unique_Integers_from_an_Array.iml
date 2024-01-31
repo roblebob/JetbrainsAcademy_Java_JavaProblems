@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Array-Finding_and_Printing_Unique_Integers_from_an_Array" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Array/Finding and Printing Unique Integers from an Array" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="hyperskill_java_JavaProblems" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Array/Finding and Printing Unique Integers from an Array">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Array/Finding and Printing Unique Integers from an Array/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Array/Finding and Printing Unique Integers from an Array/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
