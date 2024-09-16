@@ -2,15 +2,6 @@ type: code
 files:
   - name: src/Main.java
     visible: true
-    text: "public class Main {\n    public static void main(String[] args) {\n     \
-    \   // Instantiate a Car object here and use the drive method\n        // Use\
-    \ displaySpeed to print the current speed\n    }\n}\n\nclass Car {\n    private\
-    \ int speed;\n\n    public Car() {\n        // Initialize the speed field here\n\
-    \    }\n\n    public void drive(int increase) {\n        // Write a method that\
-    \ takes an integer as argument \n        // and adds it to the 'speed'.\n    \
-    \    // Use a condition to check if the speed becomes greater than 200\n     \
-    \   // if so, cap the speed at 200\n    }\n\n    public void displaySpeed() {\n\
-    \        // Write a method that prints the current speed\n    }\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/41518#comment
 status: Solved

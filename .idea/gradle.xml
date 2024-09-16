@@ -4,9 +4,7 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -33,6 +31,13 @@
             <option value="$PROJECT_DIR$/Topics/Constants. Final variables/Theory" />
             <option value="$PROJECT_DIR$/Topics/Constants. Final variables/Why does the code work" />
             <option value="$PROJECT_DIR$/Topics/Constants. Final variables/Zero, one or more" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/Interface methods" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/Modeling a School Scenario with Teachers and Students" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/Mutable geometric shapes" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/Properties of methods" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/What does an interface define" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functionality with interfaces/Which methods must be overridden" />
             <option value="$PROJECT_DIR$/Topics/Declaring methods/Method signature" />
             <option value="$PROJECT_DIR$/Topics/Declaring methods/Sum of numbers in the range" />
             <option value="$PROJECT_DIR$/Topics/Declaring methods/The sign of a number" />
@@ -44,6 +49,20 @@
             <option value="$PROJECT_DIR$/Topics/Defining classes/Implementing class with private member and getter method" />
             <option value="$PROJECT_DIR$/Topics/Defining classes/The keyword" />
             <option value="$PROJECT_DIR$/Topics/Defining classes/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix compile-time errors" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Multiplying a user-input float by 10" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Select the statement" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Two groups of errors" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Determine the result" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Evaluate an expression" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Explain the result" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Find X" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Liquid pressure" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Floating-point types/What is the value" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Account" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Complex" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Exploring Encapsulation in Java" />
@@ -70,6 +89,10 @@
             <option value="$PROJECT_DIR$/Topics/Method  main/No main args" />
             <option value="$PROJECT_DIR$/Topics/Method  main/Print  Hello, Java" />
             <option value="$PROJECT_DIR$/Topics/Method  main/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Method overriding/Publications" />
+            <option value="$PROJECT_DIR$/Topics/Method overriding/Saying animals" />
+            <option value="$PROJECT_DIR$/Topics/Method overriding/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Method overriding/Which methods will be overridden" />
             <option value="$PROJECT_DIR$/Topics/Object class/Essentials" />
             <option value="$PROJECT_DIR$/Topics/Object class/Find an incorrect assignment" />
             <option value="$PROJECT_DIR$/Topics/Object class/Generating sounds based on animal types" />
@@ -77,9 +100,24 @@
             <option value="$PROJECT_DIR$/Topics/Object class/Match methods with their descriptions" />
             <option value="$PROJECT_DIR$/Topics/Object class/Statements" />
             <option value="$PROJECT_DIR$/Topics/Object class/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/Accessing fields" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/Army" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/Filling in the blanks for a canine-centric code" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/Find reference types" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/Immutability" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/What is my age" />
+            <option value="$PROJECT_DIR$/Topics/Objects and their properties/What is the value of a field" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Determine the output" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Overloading methods" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Find mistake" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Notification" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Runtime polymorphic behavior" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Superclass method call" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/The time of overloading" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Type of polymorphism" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a primitive" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a reference type" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Declaring an integer and a double in a class" />
@@ -91,6 +129,10 @@
             <option value="$PROJECT_DIR$/Topics/Reading user's input with Scanner/Reading a single word" />
             <option value="$PROJECT_DIR$/Topics/Reading user's input with Scanner/Repeater" />
             <option value="$PROJECT_DIR$/Topics/Reading user's input with Scanner/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Applying the static keyword" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Detail manufacturing" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Project constants and methods" />
+            <option value="$PROJECT_DIR$/Topics/Static members/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
