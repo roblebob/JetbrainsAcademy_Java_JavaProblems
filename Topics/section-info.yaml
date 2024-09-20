@@ -23,3 +23,4 @@ content:
   - Errors in programs
   - Floating-point types
   - Iterating over arrays
+  - Hierarchy of exceptions

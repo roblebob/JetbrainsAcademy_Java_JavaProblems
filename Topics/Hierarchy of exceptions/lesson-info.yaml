@@ -1,0 +1,5 @@
+content:
+  - Theory
+  - Catching specific and general exceptions
+  - Unchecked exceptions
+  - BadRequestException
