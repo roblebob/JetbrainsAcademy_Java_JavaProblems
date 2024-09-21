@@ -24,3 +24,4 @@ content:
   - Floating-point types
   - Iterating over arrays
   - Hierarchy of exceptions
+  - Exception handling
