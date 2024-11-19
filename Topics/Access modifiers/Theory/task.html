@@ -28,7 +28,7 @@ org.hyperskill.java.packages.theory
 
 default package</code></pre>
 <p>Note the first two examples – if the class is package-private in package <code class="language-java">a.b</code>, it is still unavailable from package <code class="language-java">a.c</code> and package <code class="language-java">a</code> itself.</p>
-<p>Here is a <a class="theory-lookup not-relevant" href="/learn/step/3589" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a public class is the fundamental unit of a Java program and serves as the entry point for execution. | Every Java program must have at least one public class, which must be named appropriately and cannot start with a digit. The public class can contain fields, methods, and constructors, which define the properties and behavior of objects created from the class. It's important to note that a public class can be accessed from other packages, making it visible and usable outside of its defining package. This is in contrast to a package-private class, which is only visible to other classes within the same package.">public class</a> inside the package <code class="language-java">org.hyperskill.java.packages.theory.p2</code></p>
+<p>Here is a public class inside the package <code class="language-java">org.hyperskill.java.packages.theory.p2</code></p>
 <pre><code class="language-java">package org.hyperskill.java.packages.theory.p2;
 
 public class PublicClass {
@@ -93,7 +93,7 @@ public class Promotion {
 }</code></pre>
 <h5 id="protected-and-public-members">Protected and public members</h5>
 <p>Disclaimer: you will learn to use these two modifiers later!</p>
-<p>A <strong>protected </strong>access modifier means that a <a class="theory-lookup not-relevant" href="/learn/step/3589" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a class member is a variable or method that is declared within a class. | This can include both instance members, which are shared by all objects of a class but have unique values for each object, and static members, which are shared by all objects of a class and have the same value for all instances. Class members can be used to encapsulate related functionality and data, and can include fields, methods, inner classes, and nested classes.">class member</a> can be accessed from classes inside the same package and all subclasses of this class. For now, it is important to remember that the protected option is less restricting than package-private.</p>
+<p>A <strong>protected </strong>access modifier means that a class member can be accessed from classes inside the same package and all subclasses of this class. For now, it is important to remember that the protected option is less restricting than package-private.</p>
 <p>A<strong> public</strong> access modifier means that there is no restriction on using a field, method, or class. It's often used for constructors, and methods representing the class API but not commonly used with fields.</p>
 <p>Here are common ways to understand which access modifier to choose. It is not the ultimate algorithm, but it can help you understand the main use cases of the modifiers.</p>
 <p style="text-align: center;"><picture><img alt="access modifier selection schemes" height="376" src="https://ucarecdn.com/e52d3eca-5e12-42b5-b414-a11d88c3cab5/" width="860"/></picture></p>

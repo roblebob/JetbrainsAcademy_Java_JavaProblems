@@ -90,7 +90,7 @@ clazz.invokeInstanceMethod();    // SubClass: invokeInstanceMethod() is overridd
 clazz.invokeInstanceMethod("s"); // SubClass: overloaded invokeInstanceMethod(String)</code></pre>
 <p>Remember, overriding and overloading are different mechanisms but you can mix them together in one class hierarchy.</p>
 <h5 id="hiding-static-methods">Hiding static methods</h5>
-<p>Static methods cannot be overridden. If a subclass has a static method with the same signature (name and parameters) as a static method in the superclass then the method in the subclass hides the one in the superclass. It's completely different from method overriding.</p>
+<p>Static methods cannot be overridden. If a subclass has a static method with the same <a class="theory-lookup not-relevant" href="/learn/step/3572" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a method signature is a unique identifier for a method that comprises the method's name and its argument type. | It specifies the number, type, and order of parameters that a method expects as input. For example, the signature of the sum method that takes two integer parameters named a and b indicates that the sum function accepts two integer inputs. Method signatures are used to distinguish between methods with the same name that take various kinds or quantities of parameters and may be overloaded as a result.">signature</a> (name and parameters) as a static method in the superclass then the method in the subclass hides the one in the superclass. It's completely different from method overriding.</p>
 <p>Look at this <strong>example:</strong></p>
 <pre><code class="language-java">class Main {
     public static void main(String[] args) {
